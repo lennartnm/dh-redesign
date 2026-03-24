@@ -1,12 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
 
-export const blogMeta = {
-  title: "Datengestütztes Marketing: Entscheidungen auf Basis von Fakten",
-  date: "2025-03-22",
-  image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1600&q=80",
-  excerpt: "Wie Sie Daten richtig erheben, interpretieren und für bessere Marketingentscheidungen nutzen.",
-  readTime: "10 min",
-};
 
 const toc = [
   { id: "einleitung", label: "Einleitung" },

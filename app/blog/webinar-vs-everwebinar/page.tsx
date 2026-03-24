@@ -32,13 +32,6 @@ export const metadata = {
 } as const;
 
 // ✅ Schlankes Meta-Objekt für die Blogübersicht (/app/blog/page.tsx)
-export const blogMeta = {
-  title: "Webinar vs. Ever-Webinar (On-Demand): Was passt besser zu Ihnen?",
-  date: "2025-10-17",
-  image: "/webinar-cover.jpg",
-  excerpt:
-    "Live vs. On-Demand: Entscheidungsmethode, Vergleich auf einen Blick, Praxis-Setup & KPIs.",
-} as const;
 
 // Table of contents
 const toc = [

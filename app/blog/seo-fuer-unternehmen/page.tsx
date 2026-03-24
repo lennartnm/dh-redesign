@@ -1,12 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
 
-export const blogMeta = {
-  title: "SEO für Unternehmen: Mehr Sichtbarkeit ohne Werbebudget",
-  date: "2025-03-01",
-  image: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=1600&q=80",
-  excerpt: "Die wichtigsten SEO-Hebel, die auch kleinere Unternehmen sofort umsetzen können.",
-  readTime: "7 min",
-};
 
 const toc = [
   { id: "einleitung", label: "Einleitung" },

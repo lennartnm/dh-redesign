@@ -39,13 +39,6 @@ export const metadata: Metadata = {
 };
 
 // Schlankes Meta-Objekt für die Blog-Übersicht
-export const blogMeta = {
-  title: "Webseite vs. Landingpage: Was brauchst Sie wirklich?",
-  date: "2025-10-18",
-  image: "/webseite-cover.jpg",
-  excerpt:
-    "Klare Entscheidungshilfe mit Vergleichstabelle, SEO/Tracking-Tipps und Quick-Start-Checkliste.",
-} as const;
 
 const toc = [
   { id: "einleitung", label: "Einleitung" },

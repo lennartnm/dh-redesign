@@ -1,12 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
 
-export const blogMeta = {
-  title: "Customer Journey Optimierung: Den Weg zum Kauf verstehen",
-  date: "2025-03-18",
-  image: "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?auto=format&fit=crop&w=1600&q=80",
-  excerpt: "Wie Sie die Customer Journey Ihrer Kunden kartieren und jeden Touchpoint für mehr Conversions optimieren.",
-  readTime: "11 min",
-};
 
 const toc = [
   { id: "einleitung", label: "Einleitung" },

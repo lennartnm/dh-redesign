@@ -1,12 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
 
-export const blogMeta = {
-  title: "Marketing Automation: Kunden gewinnen im Schlaf",
-  date: "2025-03-12",
-  image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-  excerpt: "Wie Marketing Automation Ihnen ermöglicht, Leads automatisch zu pflegen und zu Kunden zu konvertieren.",
-  readTime: "10 min",
-};
 
 const toc = [
   { id: "einleitung", label: "Einleitung" },

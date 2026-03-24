@@ -1,12 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
 
-export const blogMeta = {
-  title: "Conversion-Optimierung: Mehr Umsatz aus demselben Traffic",
-  date: "2025-02-25",
-  image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80",
-  excerpt: "Wie Sie Ihre Website-Besucher systematisch in Kunden verwandeln – ohne mehr Werbebudget auszugeben.",
-  readTime: "9 min",
-};
 
 const toc = [
   { id: "einleitung", label: "Einleitung" },
