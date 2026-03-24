@@ -30,7 +30,7 @@ export const metadata = {
 } as const;
 
 // ✅ Zusätzliches, schlankes Meta-Objekt für die Blog-Übersicht (/app/blog/page.tsx)
-export const meta = {
+export const blogMeta = {
   title: "Das perfekte Freebie: Auswahl, Struktur & Aufgabe",
   date: "2025-10-18", // ISO-Format empfohlen
   image: "/freebie-cover.jpg", // liegt in /public

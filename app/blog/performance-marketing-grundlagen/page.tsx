@@ -1,6 +1,6 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
 
-export const meta = {
+export const blogMeta = {
   title: "Performance Marketing: Grundlagen und KPIs",
   date: "2025-01-28",
   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80",

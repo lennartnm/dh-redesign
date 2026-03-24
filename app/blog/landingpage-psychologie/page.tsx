@@ -1,6 +1,6 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
 
-export const meta = {
+export const blogMeta = {
   title: "Landingpage-Psychologie: Wie Sie Besucher überzeugen",
   date: "2025-03-08",
   image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1600&q=80",

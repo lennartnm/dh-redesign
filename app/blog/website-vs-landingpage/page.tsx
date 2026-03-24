@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 };
 
 // Schlankes Meta-Objekt für die Blog-Übersicht
-export const meta = {
+export const blogMeta = {
   title: "Webseite vs. Landingpage: Was brauchst Sie wirklich?",
   date: "2025-10-18",
   image: "/webseite-cover.jpg",

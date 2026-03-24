@@ -1,6 +1,6 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
 
-export const meta = {
+export const blogMeta = {
   title: "Leadgenerierung im digitalen Marketing",
   date: "2025-02-10",
   image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1600&q=80",

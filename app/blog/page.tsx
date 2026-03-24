@@ -31,7 +31,7 @@ async function getBlogSlugs(): Promise<string[]> {
 async function getBlogMeta(slug: string): Promise<BlogListItem | null> {
   try {
     const mod = await import(`./${slug}/page`);
-    const meta: BlogMeta | undefined = (mod as any).meta || (mod as any).metadata || (mod as any).post;
+    const meta: BlogMeta | undefined = (mod as any).blogMeta || (mod as any).meta || (mod as any).metadata || (mod as any).post;
     if (!meta || !meta.title) return null;
     return { slug, meta };
   } catch {

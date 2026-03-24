@@ -1,6 +1,6 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
 
-export const meta = {
+export const blogMeta = {
   title: "Google Ads vs. Meta Ads: Was passt zu Ihrem Unternehmen?",
   date: "2025-02-18",
   image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=1600&q=80",

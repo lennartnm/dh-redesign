@@ -32,7 +32,7 @@ export const metadata = {
 } as const;
 
 // ✅ Schlankes Meta-Objekt für die Blogübersicht (/app/blog/page.tsx)
-export const meta = {
+export const blogMeta = {
   title: "Webinar vs. Ever-Webinar (On-Demand): Was passt besser zu Ihnen?",
   date: "2025-10-17",
   image: "/webinar-cover.jpg",
