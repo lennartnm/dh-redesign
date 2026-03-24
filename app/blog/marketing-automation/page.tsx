@@ -1,4 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
+import { blogMetaMap } from "@/app/blog/blogMeta";
 
 
 const toc = [
@@ -15,6 +16,8 @@ const sources = [
   { label: "Salesforce: Marketing Automation Trends", url: "https://www.salesforce.com/resources" },
   { label: "ActiveCampaign: E-Mail Automation Guide", url: "https://www.activecampaign.com" },
 ];
+
+const meta = blogMetaMap["marketing-automation"];
 
 export default function Page() {
   return (

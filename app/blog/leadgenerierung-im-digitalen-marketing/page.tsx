@@ -1,4 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
+import { blogMetaMap } from "@/app/blog/blogMeta";
 
 
 const toc = [
@@ -15,6 +16,8 @@ const sources = [
   { label: "Demand Gen Report: B2B Buyer Behavior", url: "https://www.demandgenreport.com" },
   { label: "Marketo Benchmark on Lead Nurturing", url: "https://www.marketo.com" },
 ];
+
+const meta = blogMetaMap["leadgenerierung-im-digitalen-marketing"];
 
 export default function Page() {
   return (

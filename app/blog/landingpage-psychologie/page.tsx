@@ -1,4 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
+import { blogMetaMap } from "@/app/blog/blogMeta";
 
 
 const toc = [
@@ -15,6 +16,8 @@ const sources = [
   { label: "Baymard Institute: UX Research auf E-Commerce-Seiten", url: "https://baymard.com" },
   { label: "Nielsen Norman Group: Landingpage Best Practices", url: "https://www.nngroup.com/articles/landing-page-ux/" },
 ];
+
+const meta = blogMetaMap["landingpage-psychologie"];
 
 export default function Page() {
   return (

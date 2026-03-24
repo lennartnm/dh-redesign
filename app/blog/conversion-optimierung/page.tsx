@@ -1,4 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
+import { blogMetaMap } from "@/app/blog/blogMeta";
 
 
 const toc = [
@@ -15,6 +16,8 @@ const sources = [
   { label: "CXL Institute: Conversion Rate Optimization", url: "https://cxl.com/blog/conversion-rate-optimization/" },
   { label: "Google Analytics: Conversion Reports", url: "https://analytics.google.com" },
 ];
+
+const meta = blogMetaMap["conversion-optimierung"];
 
 export default function Page() {
   return (

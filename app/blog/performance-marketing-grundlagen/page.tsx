@@ -1,4 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
+import { blogMetaMap } from "@/app/blog/blogMeta";
 
 
 const toc = [
@@ -15,6 +16,8 @@ const sources = [
   { label: "Google Think with Google: Performance Max", url: "https://www.thinkwithgoogle.com" },
   { label: "Meta Blueprint: Ads Performance", url: "https://www.facebook.com/business/learn" },
 ];
+
+const meta = blogMetaMap["performance-marketing-grundlagen"];
 
 export default function Page() {
   return (

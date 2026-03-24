@@ -1,4 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
+import { blogMetaMap } from "@/app/blog/blogMeta";
 
 
 const toc = [
@@ -15,6 +16,8 @@ const sources = [
   { label: "Forrester Research: Customer Experience Index", url: "https://www.forrester.com" },
   { label: "Think with Google: Messy Middle Research", url: "https://www.thinkwithgoogle.com/intl/en-154/consumer-insights/consumer-journey/navigating-purchase-behavior-and-decision-making/" },
 ];
+
+const meta = blogMetaMap["customer-journey-optimierung"];
 
 export default function Page() {
   return (

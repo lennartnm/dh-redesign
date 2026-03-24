@@ -1,4 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
+import { blogMetaMap } from "@/app/blog/blogMeta";
 
 
 const toc = [
@@ -15,6 +16,8 @@ const sources = [
   { label: "Meta for Business: Advertising Solutions", url: "https://www.facebook.com/business" },
   { label: "WordStream: Google Ads Benchmarks 2024", url: "https://www.wordstream.com/blog/ws/google-ads-benchmarks" },
 ];
+
+const meta = blogMetaMap["google-ads-vs-meta-ads"];
 
 export default function Page() {
   return (

@@ -1,4 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
+import { blogMetaMap } from "@/app/blog/blogMeta";
 
 
 const toc = [
@@ -15,6 +16,8 @@ const sources = [
   { label: "Gartner: Data-Driven Marketing Survey 2024", url: "https://www.gartner.com/en/marketing" },
   { label: "Statista: Big Data in Marketing", url: "https://www.statista.com" },
 ];
+
+const meta = blogMetaMap["datagestuetztes-marketing"];
 
 export default function Page() {
   return (

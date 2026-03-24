@@ -1,4 +1,5 @@
 import BlogLayout from "@/app/components/ui/BlogLayout";
+import { blogMetaMap } from "@/app/blog/blogMeta";
 
 
 const toc = [
@@ -15,6 +16,8 @@ const sources = [
   { label: "Ahrefs: SEO Statistics 2024", url: "https://ahrefs.com/blog/seo-statistics/" },
   { label: "Moz: The Beginner's Guide to SEO", url: "https://moz.com/beginners-guide-to-seo" },
 ];
+
+const meta = blogMetaMap["seo-fuer-unternehmen"];
 
 export default function Page() {
   return (
