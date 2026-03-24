@@ -421,7 +421,7 @@ export default function DatenschutzPage() {
             {/* Letzte Aktualisierung */}
             <p className="text-sm text-gray-500">Letzte Aktualisierung: {new Date().toLocaleDateString("de-AT")}</p>
           </div>
-    </div>
+          </div>
     </LegalLayout>
   );
 }

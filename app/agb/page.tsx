@@ -21,18 +21,8 @@ export const metadata: Metadata = {
 export default function AgbPage() {
   return (
     <LegalLayout title="Allgemeine Geschäftsbedingungen">
-
-      <main className="flex-1">
-        <Section
-          id="agb"
-          className="py-20"
-          containerClass="mx-auto max-w-7xl px-4"
-        >
-          <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-8">
-            Allgemeine Geschäftsbedingungen (AGB)
-          </h1>
-
-          <article
+      <div>
+      <article
             className="rounded-2xl border border-gray-200 p-6 md:p-8 shadow-sm"
             itemScope
             itemType="https://schema.org/TermsOfService"
@@ -247,9 +237,8 @@ export default function AgbPage() {
             </section>
 
             {/* Letzte Aktualisierung */}
-            <p className="text-sm text-gray-500">Letzte Aktualisierung: {new Date().toLocaleDateString("de-AT")}</p>
-          </div>
-    </div>
+            <p className="text-sm text-gray-500">Letzte Aktualisierung: {new Date().toLocaleDateString("de-AT")}</p>      </div>
+      </div>
     </LegalLayout>
   );
 }

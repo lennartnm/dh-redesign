@@ -20,11 +20,8 @@ export const metadata: Metadata = {
 
 export default function CookiesPage() {
   return (
-    <div className="min-h-screen flex flex-col bg-white text-gray-900">
-      <Header />
-
-      <main className="flex-1">
-        <Section id="cookies" className="py-20" containerClass="mx-auto max-w-7xl px-4">
+    <LegalLayout title="Cookie-Richtlinie">
+      <div>
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-8">Cookie‑Richtlinie (EU)</h1>
 
           <article
@@ -329,12 +326,8 @@ export default function CookiesPage() {
             </section>
 
             {/* Footer‑Hinweise */}
-            <p className="text-sm text-gray-500">Letzte Aktualisierung: 4. Juni 2025</p>
-          </div>
-        </Section>
-      </main>
-
-      <Footer />
-    </div>
+            <p className="text-sm text-gray-500">Letzte Aktualisierung: 4. Juni 2025</p>      </div>
+      </div>
+    </LegalLayout>
   );
 }
